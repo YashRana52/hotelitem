@@ -26,7 +26,7 @@ router.get('/', async (req, res) => {
         res.status(500).json({ error: 'Internal server error' });
     }
 
-});
+})
 // taste type k liye code
 
 router.get('/:taste', async (req, res) => {
